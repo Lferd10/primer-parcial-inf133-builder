@@ -66,17 +66,19 @@ class PersonajeHandler(BaseHTTPRequestHandler):
             content_length = int(self.headers['Content-Length'])
             post_data = self.rfile.read(content_length)
     
+    
     def do_POST(self):
         if self.path == '/characters':
             content_length = int(self.headers['Content-Length'])
             post_data = self.rfile.read(content_length)
+    
     def do_PUT(self):
-        pass
+        content_length = int(self.headers['Content-Length'])
+        post_data = self.rfile.read(content_length)
     
     def do_DELETE(self):
-        pass
-
-
+        content_length = int(self.headers['Content-Length'])
+        post_data = self.rfile.read(content_length)
 
 
 
