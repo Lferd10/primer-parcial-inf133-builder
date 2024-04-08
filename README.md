@@ -1,4 +1,4 @@
-# Primer Parcial
+l# Primer Parcial
 ## Programación Web III - RESTful Builder
 
 ### Antes de Empezar:
@@ -11,7 +11,7 @@
 2. Completa tus datos personales en la siguiente tabla:
     | Nombre   | Apellido   | CI   |
     | -------- | ---------- | ---- |
-    | `nombre` | `apellido` | `ci` |
+    | `Luis Fernando` | `Vallejos Copa` | `11542541` |
 
 3. Realiza un commit de esta modificación y sube los cambios a tu repositorio remoto ejecutando los siguientes comandos desde la terminal de tu equipo local o desde **GitHub Codespaces**:
     ```bash
